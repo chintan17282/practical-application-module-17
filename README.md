@@ -37,7 +37,7 @@ FeatureSelection was just done in one of the the models, as it follows column_tr
 
 The finalized parameters were
 
-```json
+```text
 {
  'feature_selection__estimator__C': 0.01,
  'feature_selection__estimator__penalty': 'l1',
@@ -53,15 +53,17 @@ Below Chart shows details each run for each classifier.
 
 2_LogisticRegression-2.ipynb
 
-| Metric                    | recall_score | f1_score   | fbeta_score | recall_score | recall_score | f1_score   |
-| :------------------------ | :----------- | :--------- | ----------- | ------------ | ------------ | ---------- |
-| Data Sampling Algorithms  | SMOTETomek   | SMOTETomek | SMOTETomek  | SMOTETomek   | SMOTETomek   | SMOTETomek |
-| Cost-Sensitive Algorithms | Yes          | Yes        | Yes         | No           | No           | Yes        |
-| Feature Selection         | Yes          | Yes        | Yes         | Yes          | No           | No         |
-| Accuracy                  | 0.8188       | 0.8534     | 0.8534      | 0.8534       | 0.8562       | 0.8562     |
-| Precision Score           | 0.3753       | 0.4264     | 0.4264      | 0.4264       | 0.4319       | 0.4319     |
-| Recall Score              | 0.9200       | 0.8804     | 0.8804      | 0.8804       | 0.8840       | 0.8840     |
-| F1 Score                  | 0.5331       | 0.5745     | 0.5745      | 0.5745       | 0.5803       | 0.5803     |
+|                           | Model 1      | Model 2    | Model 3     | Model 4    | Model 5    | Model 6    |
+| :------------------------ | :----------- | :--------- | ----------- | ---------- | ---------- | ---------- |
+| Metric                    | recall_score | f1_score   | fbeta_score | f1_score   | f1_score   | f1_score   |
+| Data Sampling Algorithms  | SMOTETomek   | SMOTETomek | SMOTETomek  | SMOTETomek | SMOTETomek | SMOTETomek |
+| Cost-Sensitive Algorithms | Yes          | Yes        | Yes         | No         | No         | Yes        |
+| Feature Selection         | Yes          | Yes        | Yes         | Yes        | No         | No         |
+| Threshold                 | 0.70         | 0.65       | 0.65        | 0.65       | 0.65       | 0.65       |
+| Accuracy                  | 0.8925       | 0.8861     | 0.8861      | 0.8861     | 0.8841     | 0.8841     |
+| Precision Score           | 0.5157       | 0.4960     | 0.4960      | 0.4960     | 0.4904     | 0.4904     |
+| Recall Score              | 0.7170       | 0.8070     | 0.8070      | 0.8070     | 0.7991     | 0.7991     |
+| F1 Score                  | 0.6000       | 0.6144     | 0.6144      | 0.6144     | 0.6078     | 0.6078     |
 
 - 
 
@@ -89,20 +91,25 @@ Both **Model 4** and **Model 5** have fantastic recall score, but low **Precisio
 
 3_DecisionTree_2.ipynb
 
-| Metric                    | fbeta_score | fbeta_score | recall_score | fbeta_score | fbeta_score | precision_score |
+|                           | Model 1     | Model 2     | Model 3      | Model 4     | Model 5     | Model 6         |
 | :------------------------ | :---------- | :---------- | ------------ | ----------- | ----------- | --------------- |
+| Metric                    | fbeta_score | fbeta_score | recall_score | fbeta_score | fbeta_score | precision_score |
 | Data Sampling Algorithms  | Yes         | Yes         | Yes          | Yes         | Yes         | Yes             |
 | Cost-Sensitive Algorithms | No          | No          | No           | Yes         | Yes         | Yes             |
 | Feature Selection         | No          | Yes         | Yes          | No          | Yes         | Yes             |
-| Threshold                 | 0.50        | 0.50        | 0.45         | 0.75        | 0.77        |
-| Accuracy                  | 0.8642      | 0.8674      | 0.7873       | 0.8714      | 0.8674      | 0.9076          |
-| Precision Score           | 0.4498      | 0.4549      | 0.3404       | 0.4635      | 0.4549      | 0.6089          |
-| Recall Score              | 0.9294      | 0.9049      | 0.9517       | 0.9121      | 0.9049      | 0.4989          |
-| F1 Score                  | 0.6062      | 0.6054      | 0.50151      | 0.6147      | 0.6054      | 0.5484          |
+| Threshold                 | 0.70        | 0.65        | 0.55         | 0.45        | 0.45        | 0.40            |
+| Accuracy                  | 0.8990      | 0.8930      | 0.8179       | 0.8714      | 0.8674      | 0.9059          |
+| Precision Score           | 0.4498      | 0.5155      | 0.3741       | 0.4635      | 0.4549      | 0.5718          |
+| Recall Score              | 0.9294      | 0.8106      | 0.9215       | 0.9121      | 0.9049      | 0.6501          |
+| F1 Score                  | 0.6062      | 0.5322      | 0.50151      | 0.6147      | 0.6054      | 0.6084          |
+
+Not any one model, is best in all scores. **Model 1**, **Model 3**, **Model 4,** and **Model 5** all have great Recall Score.  
 
 
 
 # K-Nearest Neighbor
+
+4_KNN.ipynb
 
 |                           | Model 1     | Model 2     | Model 3     | Model 4     | Model 5      | Model 6    |
 | :------------------------ | :---------- | :---------- | ----------- | ----------- | ------------ | ---------- |
