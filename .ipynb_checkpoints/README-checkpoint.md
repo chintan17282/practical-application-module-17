@@ -1,7 +1,7 @@
-# practical-application-module-17
-Berkley HAAS (ML AI - August 2008 Batch) - Practical Application [Module 17]
+# Practical Application (Module-17)
+Berkley HAAS (ML AI - August 2024 Batch)
 
-
+---
 
 # Strategy
 
@@ -94,6 +94,7 @@ Both **Model 4** and **Model 5** have fantastic recall score, but low **Precisio
 | Data Sampling Algorithms  | Yes         | Yes         | Yes          | Yes         | Yes         | Yes             |
 | Cost-Sensitive Algorithms | No          | No          | No           | Yes         | Yes         | Yes             |
 | Feature Selection         | No          | Yes         | Yes          | No          | Yes         | Yes             |
+| Threshold                 | 0.50        | 0.50        | 0.45         | 0.75        | 0.77        |
 | Accuracy                  | 0.8642      | 0.8674      | 0.7873       | 0.8714      | 0.8674      | 0.9076          |
 | Precision Score           | 0.4498      | 0.4549      | 0.3404       | 0.4635      | 0.4549      | 0.6089          |
 | Recall Score              | 0.9294      | 0.9049      | 0.9517       | 0.9121      | 0.9049      | 0.4989          |
