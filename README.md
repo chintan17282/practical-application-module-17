@@ -70,7 +70,7 @@ Below Chart shows details each run for each classifier.
 | Recall Score              | 0.7170       | 0.8070     | 0.8070      | 0.8070     | 0.7991     | 0.7991     |
 | F1 Score                  | 0.6000       | 0.6144     | 0.6144      | 0.6144     | 0.6078     | 0.6078     |
 
-- 
+- Recall score for all the models above are arounf 80%, Precision of all is aroung 50%
 
 # DecisionTreeClassification
 
