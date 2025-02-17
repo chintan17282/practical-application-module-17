@@ -3,6 +3,11 @@ Berkley HAAS (ML AI - August 2024 Batch)
 
 ---
 
+# Problem Statement
+The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit.<br>
+[https://archive.ics.uci.edu/dataset/222/bank+marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+
+
 # Strategy
 
 - It was evident that we may have to try to use combinition of 
