@@ -56,7 +56,7 @@ Below Chart shows details each run for each classifier.
 
 # LogisticRegression
 
-2_LogisticRegression-2.ipynb
+[2_LogisticRegression-2.ipynb](2_LogisticRegression-2.ipynb)
 
 |                           | Model 1      | Model 2    | Model 3     | Model 4    | Model 5    | Model 6    |
 | :------------------------ | :----------- | :--------- | ----------- | ---------- | ---------- | ---------- |
@@ -74,7 +74,7 @@ Below Chart shows details each run for each classifier.
 
 # DecisionTreeClassification
 
-3_DecisionTree_1.ipynb
+[3_DecisionTree_1.ipynb](3_DecisionTree_1.ipynb)
 
 |                           | Model 1     | Model 2     | Model 3      | Model 4     | Model 5     |
 | :------------------------ | :---------- | :---------- | ------------ | ----------- | ----------- |
@@ -94,7 +94,7 @@ Both **Model 4** and **Model 5** have fantastic recall score, but low **Precisio
 
 # BalancedBaggingClassifier + DecisionTreeClassifier
 
-3_DecisionTree_2.ipynb
+[3_DecisionTree_2.ipynb](3_DecisionTree_2.ipynb)
 
 |                           | Model 1     | Model 2     | Model 3      | Model 4     | Model 5     | Model 6         |
 | :------------------------ | :---------- | :---------- | ------------ | ----------- | ----------- | --------------- |
@@ -114,7 +114,7 @@ Not any one model, is best in all scores. **Model 1**, **Model 3**, **Model 4,**
 
 # K-Nearest Neighbor
 
-4_KNN.ipynb
+[4_KNN.ipynb](4_KNN.ipynb)
 
 |                           | Model 1     | Model 2     | Model 3     | Model 4     | Model 5      | Model 6    |
 | :------------------------ | :---------- | :---------- | ----------- | ----------- | ------------ | ---------- |
