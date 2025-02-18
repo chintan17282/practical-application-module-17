@@ -3,6 +3,11 @@ Berkley HAAS (ML AI - August 2024 Batch)
 
 ---
 
+# Problem Statement
+The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit.<br>
+[https://archive.ics.uci.edu/dataset/222/bank+marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
+
+
 # Strategy
 
 - It was evident that we may have to try to use combinition of 
@@ -51,7 +56,7 @@ Below Chart shows details each run for each classifier.
 
 # LogisticRegression
 
-2_LogisticRegression-2.ipynb
+[2_LogisticRegression-2.ipynb](2_LogisticRegression-2.ipynb)
 
 |                           | Model 1      | Model 2    | Model 3     | Model 4    | Model 5    | Model 6    |
 | :------------------------ | :----------- | :--------- | ----------- | ---------- | ---------- | ---------- |
@@ -65,11 +70,11 @@ Below Chart shows details each run for each classifier.
 | Recall Score              | 0.7170       | 0.8070     | 0.8070      | 0.8070     | 0.7991     | 0.7991     |
 | F1 Score                  | 0.6000       | 0.6144     | 0.6144      | 0.6144     | 0.6078     | 0.6078     |
 
-- 
+- Recall score for all the models above are arounf 80%, Precision of all is aroung 50%
 
 # DecisionTreeClassification
 
-3_DecisionTree_1.ipynb
+[3_DecisionTree_1.ipynb](3_DecisionTree_1.ipynb)
 
 |                           | Model 1     | Model 2     | Model 3      | Model 4     | Model 5     |
 | :------------------------ | :---------- | :---------- | ------------ | ----------- | ----------- |
@@ -89,7 +94,7 @@ Both **Model 4** and **Model 5** have fantastic recall score, but low **Precisio
 
 # BalancedBaggingClassifier + DecisionTreeClassifier
 
-3_DecisionTree_2.ipynb
+[3_DecisionTree_2.ipynb](3_DecisionTree_2.ipynb)
 
 |                           | Model 1     | Model 2     | Model 3      | Model 4     | Model 5     | Model 6         |
 | :------------------------ | :---------- | :---------- | ------------ | ----------- | ----------- | --------------- |
@@ -109,7 +114,7 @@ Not any one model, is best in all scores. **Model 1**, **Model 3**, **Model 4,**
 
 # K-Nearest Neighbor
 
-4_KNN.ipynb
+[4_KNN.ipynb](4_KNN.ipynb)
 
 |                           | Model 1     | Model 2     | Model 3     | Model 4     | Model 5      | Model 6    |
 | :------------------------ | :---------- | :---------- | ----------- | ----------- | ------------ | ---------- |
